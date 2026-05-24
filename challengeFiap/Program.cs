@@ -35,7 +35,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI(options =>
     {
         options.SwaggerEndpoint("/swagger/v1/swagger.json", "Challenge CYLVO");
-        options.RoutePrefix = string.Empty;
+        options.RoutePrefix = "swagger";
     });
 }
 
