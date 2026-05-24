@@ -135,5 +135,5 @@ h4>VetClinica</h4>
 <h4>Para executar o projeto: </h4>
 
 - Vai play(http)
-      OU
+<h5 align="center">OU</h5>
 - dotnet run
