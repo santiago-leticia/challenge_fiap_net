@@ -2,12 +2,11 @@
 <h3 align="center">Challenge - FIAP - CYLVO</h3>
 
 <h2 align="center" >  👥 Integrante </h2>
-| Nome | RM |
-|------|----|
-| Eduardo Batista Locaspi | RM565171 |
-| Liana Lyumi Morisita Fujisima | RM565698 |
-| Leticia Santiago e Silva | RM565799 |
-| Victor Alves Lopes | RM561833 |
+
+- Eduardo Batista Locaspi | RM565171 
+- Liana Lyumi Morisita Fujisima | RM565698 
+- Leticia Santiago e Silva | RM565799 
+- Victor Alves Lopes | RM561833 
 
 <h2> 📋 Descrição sobre projeto: </h2>
 
