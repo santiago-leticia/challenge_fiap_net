@@ -23,7 +23,7 @@
 
 <h2>Rotas Presente no Projeto: </h2>
 
-<h4>Routa principal</h4>
+<h4>Rota principal</h4>
 
 - api/[controller]
 
