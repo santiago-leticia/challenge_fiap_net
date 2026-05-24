@@ -202,7 +202,7 @@ https://localhost:{PORTA}/swagger
 - **Swagger / OpenAPI**
 
 ---
-*Desenvolvido com 💙 pela equipe CLYVO — FIAP 2025*
+*Desenvolvido com 💙 pela equipe CLYVO — FIAP 2026*
 
 
 
