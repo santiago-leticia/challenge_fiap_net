@@ -112,9 +112,9 @@
 
 <h4>Pre-requisitos: </h4>
 
-- Versão necessaria .Net: 10.0
+- Versão necessaria .Net SDK: 10.0 (10.0.300)
 - Oracle DataBase
-- EF Core Tools
+- Instalar Microsoft.EntityFrameworkCore.Tools em pacote
 
 <h4>Link do GitHub para Clonar: </h4>
 
@@ -130,7 +130,11 @@
 
 <h4>Para configurar o Banco de Dados - Oracle</h4>
 
-- "OracleConnection": "User Id=USUARIO;Password=SENHA;Data Source=SEU_SERVIDOR"
+- "OracleConnection": "User Id=SEU_USUARIO;Password=SUA_SENHA;Data Source=SEU_SERVIDOR"
+
+<h4>Migrantions: </h4>
+
+- dotnet ef database update
 
 <h4>Para executar o projeto: </h4>
 
@@ -139,5 +143,9 @@
 <h5 align="center">OU</h5>
 
 - dotnet run
+
+<h4>Quando iniciar</h4>
+
+- Quando iniciar, o programa vai abrir o terminal e longo apos vai na parte web e para você ir para o swagger, precisa ir a https://localhost:xxxx
 
 
