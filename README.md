@@ -84,7 +84,7 @@
 - POST: criar/enderecoanimal
 - DELETE: deleta/enderecoanimal/{id_endereco_animal:int}
 
-h4>Endereço Clínica</h4>
+<h4>Endereço Clínica</h4>
 
 - GET - ALL: relatorio/enderecoclinica
 - GET - ID: relatorio/enderecoclinica/{id_endereco_clinica:int}
@@ -92,7 +92,7 @@ h4>Endereço Clínica</h4>
 - PUT: atualizar/enderecoclinica/{id_endereco_clinica:int}
 - DELETE: deleta/enderecoclinica/{id_endereco_clinica:int}
 
-h4>Endereço Responsável</h4>
+<h4>Endereço Responsável</h4>
 
 - GET - ALL: relatorio/enderecoresponsavel
 - GET - ID: relatorio/enderecoresponsavel/{id_endereco_responsavel:int}
@@ -100,7 +100,7 @@ h4>Endereço Responsável</h4>
 - PUT: atualizar/enderecoresponsavel/{id_endereco_responsavel:int}
 - DELETE: deleta/enderecoresponsavel/{id_endereco_responsavel:int}
 
-h4>VetClinica</h4>
+<h4>VetClinica</h4>
 
 - GET - ALL: relatorio/vetclinica
 - GET - ID: relatorio/vetclinica/{id_clinica_vet:int}
