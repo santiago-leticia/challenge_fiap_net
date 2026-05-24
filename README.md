@@ -2,12 +2,12 @@
 <h3 align="center">Challenge - FIAP - CYLVO</h3>
 
 <h2 align="center" >  👥 Integrante </h2>
-|	NOME | RM |
-|-------------------------------------------|
-| EDUARDO BATISTA LOCASPI       - RM5651713 |
-| LIANA LYUMI MORISITA FUJISIMA - RM565698  |
-| LETICIA SANTIAGO E SILVA      - RM565799  |
-| VICTOR ALVES LOPES            - RM561833  |
+| Nome | RM |
+|------|----|
+| Eduardo Batista Locaspi | RM565171 |
+| Liana Lyumi Morisita Fujisima | RM565698 |
+| Leticia Santiago e Silva | RM565799 |
+| Victor Alves Lopes | RM561833 |
 
 <h2> 📋 Descrição sobre projeto: </h2>
 
@@ -47,11 +47,9 @@ Como os animais não conseguem comunicar o que sentem, é comum que os tutores s
 
 <h2> 🛣️ Rotas da API: </h2>
 
-<h4>Rota principal</h4>
+Rota base: `api/[controller]`
 
-- api/[controller]
-
-<h4>Animal</h4>
+<h4> 🐾 Animal</h4>
 
 - GET - All: relatorio/animal
 - GET - ID: relatorio/animal/{id_animal:int}
@@ -59,7 +57,7 @@ Como os animais não conseguem comunicar o que sentem, é comum que os tutores s
 - PUT: atualizar/animal/{id_animal:int}
 - DELETE: deleta/animal/{id_animal:int}
 
-<h4>Veterinário</h4>
+<h4>🩺 Veterinário</h4>
 
 - GET - ALL: relatorio/veterinario
 - GET - ID: relatorio/veterinario/{id_vet:int}
@@ -67,7 +65,7 @@ Como os animais não conseguem comunicar o que sentem, é comum que os tutores s
 - PUT: atualizar/veterinario/{id_vet:int}
 - DELETE: deleta/veterinario/{id_vet:int}
 
-<h4>Responsável</h4>
+<h4>👤 Responsável</h4>
 
 - GET - ALL: relatorio/responsavel
 - GET - ID: relatorio/responsavel/{id_responsavel:int}
@@ -75,7 +73,7 @@ Como os animais não conseguem comunicar o que sentem, é comum que os tutores s
 - PUT: atualizar/responsavel/{id_responsavel:int}
 - DELETE: deleta/responsavel/{id_responsavel:int}
 
-<h4>Consulta</h4>
+<h4> 📅 Consulta</h4>
 
 - GET - ALL: relatorio/consulta
 - GET - ID: relatorio/consulta/{id_consulta:int}
@@ -83,7 +81,7 @@ Como os animais não conseguem comunicar o que sentem, é comum que os tutores s
 - PUT: atualizar/consulta/{id_consulta:int}
 - DELETE: deleta/consulta/{id_consulta:int}
 
-<h4>Prescrição</h4>
+<h4> 📝 Prescrição</h4>
 
 - GET - ALL: relatorio/prescricao
 - GET - ID: relatorio/prescricao/{id_prescricao:int}
@@ -92,7 +90,7 @@ Como os animais não conseguem comunicar o que sentem, é comum que os tutores s
 - DELETE: deleta/prescricao/{id_prescricao:int}
 
 
-<h4>Medicamento</h4>
+<h4> 💊 Medicamento</h4>
 
 - GET - All: relatorio/medicamento
 - GET - ID: relatorio/medicamento/{id_medicamento:int}
@@ -100,7 +98,7 @@ Como os animais não conseguem comunicar o que sentem, é comum que os tutores s
 - PUT: atualizar/medicamento/{id_medicamento:int}
 - DELETE: deleta/medicamento/{id_medicamento:int}
 
-<h4>Endereço Animal</h4>
+<h4> 📍 Endereço Animal</h4>
 
 - GET - ALL: relatorio/enderecoanimal
 - GET - ID: relatorio/enderecoanimal/{id_endereco_animal:int}
@@ -108,7 +106,7 @@ Como os animais não conseguem comunicar o que sentem, é comum que os tutores s
 - POST: criar/enderecoanimal
 - DELETE: deleta/enderecoanimal/{id_endereco_animal:int}
 
-<h4>Endereço Clínica</h4>
+<h4> 🏥 Endereço Clínica</h4>
 
 - GET - ALL: relatorio/enderecoclinica
 - GET - ID: relatorio/enderecoclinica/{id_endereco_clinica:int}
@@ -116,7 +114,7 @@ Como os animais não conseguem comunicar o que sentem, é comum que os tutores s
 - PUT: atualizar/enderecoclinica/{id_endereco_clinica:int}
 - DELETE: deleta/enderecoclinica/{id_endereco_clinica:int}
 
-<h4>Endereço Responsável</h4>
+<h4> 🏠 Endereço Responsável</h4>
 
 - GET - ALL: relatorio/enderecoresponsavel
 - GET - ID: relatorio/enderecoresponsavel/{id_endereco_responsavel:int}
@@ -124,7 +122,7 @@ Como os animais não conseguem comunicar o que sentem, é comum que os tutores s
 - PUT: atualizar/enderecoresponsavel/{id_endereco_responsavel:int}
 - DELETE: deleta/enderecoresponsavel/{id_endereco_responsavel:int}
 
-<h4>VetClinica</h4>
+<h4> 🏢 VetClinica</h4>
 
 - GET - ALL: relatorio/vetclinica
 - GET - ID: relatorio/vetclinica/{id_clinica_vet:int}
