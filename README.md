@@ -12,7 +12,7 @@
 
 <p>
 	Como visto no tema do challenge, o objetivo da CLYVO é acompanhar a jornada contínua de saúde do pet, combatendo o problema da baixa recorrência nas clínicas. Como os animais não conseguem expressar o que sentem, é comum que os responsáveis só busquem auxílio veterinário em situações graves ou emergências.
-	Essa cultura de atendimento reativo gera complicações no tratamento, uma vez que a ausência de um banco de dados unificado — com histórico de consultas e prontuários — pode levar a diagnósticos tardios.
+	Essa cultura de atendimento reativo gera complicações no tratamento, uma vez que a ausência de um banco de dados unificado com histórico de consultas e prontuários pode levar a diagnósticos tardios.
 	Diante desse cenário, nossa solução é um aplicativo que centraliza todas as informações essenciais para o veterinário, como idade, peso, espécie, raça, carteira de vacinação, histórico de consultas e dados do responsável. Além disso, o app permite o rastreamento da localização do pet, caso este não habite o mesmo domicílio que o responsável. A plataforma também disponibiliza uma agenda completa para o acompanhamento de consultas, permitindo que o usuário visualize marcações, cancelamentos ou alterações de data.
 	Para estimular o fluxo de retorno e aumentar a frequência dos check-ups, o projeto prevê uma integração entre a clínica e o responsável por meio do WhatsApp. O sistema funcionará da seguinte forma: após um período determinado desde a última consulta, o responsável receberá uma mensagem automática com um convite para agendar o próximo check-up. Essa lógica também se aplica aos protocolos de vacinação. Em todos os casos, a mensagem oferecerá opções diretas para confirmar o agendamento ou optar por não realizá-lo no momento.
 </p>
