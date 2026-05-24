@@ -2,7 +2,7 @@
 <h3 align="center">Challenge - FIAP - CYLVO</h3>
 
 <h2 align="center" >  👥 Integrante </h2>
-|	NOME					|		RM		|
+|	NOME | RM |
 |-------------------------------------------|
 | EDUARDO BATISTA LOCASPI       - RM5651713 |
 | LIANA LYUMI MORISITA FUJISIMA - RM565698  |
@@ -136,40 +136,76 @@ Como os animais não conseguem comunicar o que sentem, é comum que os tutores s
 
 <h4>Pre-requisitos: </h4>
 
-- Versão necessaria .Net SDK: 10.0 (10.0.300)
-- Oracle DataBase
-- Instalar Microsoft.EntityFrameworkCore.Tools em pacote
+- [.NET SDK 10.0 (10.0.300)](https://dotnet.microsoft.com/download)
+- Oracle Database
+- Pacote NuGet: `Microsoft.EntityFrameworkCore.Tools`
 
-<h4>Link do GitHub para Clonar: </h4>
+<h4> 1. Clonar o Repositório </h4>
 
 - git clone https://github.com/santiago-leticia/challenge_fiap_net.git
 
-<h4>Para acessar o projeto: </h4>
+<h4>2. Abrir o Projeto</h4>
 
-- Selecionar -> challengeFiap.slnx
+Abra o arquivo de solução no Visual Studio ou Rider:
 
-<h4>Depdendência do Projeto: </h4>
+```
+challengeFiap.slnx
+```
 
-- dotnet restore
+<h4>3. Restaurar Dependências </h4>
+
+
+```bash
+dotnet restore
+```
+
 
 <h4>Para configurar o Banco de Dados - Oracle</h4>
 
-- "OracleConnection": "User Id=SEU_USUARIO;Password=SUA_SENHA;Data Source=SEU_SERVIDOR"
 
-<h4>Migrantions: </h4>
+<h4>4. Configurar o Banco de Dados </h4>
 
-- dotnet ef database update
+No arquivo `appsettings.json`, configure a string de conexão Oracle:
 
-<h4>Para executar o projeto: </h4>
+```json
+"OracleConnection": "User Id=SEU_USUARIO;Password=SUA_SENHA;Data Source=SEU_SERVIDOR"
+```
+<h4>5. Aplicar as Migrations</h4>
 
-- play(http)
+```bash
+dotnet ef database update
+```
 
-<h5 align="center">OU</h5>
+<h4>6. Executar o Projeto </h4>
 
-- dotnet run
+Via Visual Studio — clique em **▶ Play (http)**
 
-<h4>Quando iniciar</h4>
+Ou via terminal:
 
--  Quando iniciar, o programa vai abrir o terminal e, logo após, vai para a parte web. Para você ir para o Swagger, precisa ir a https://localhost:xxxx.
+```bash
+dotnet run
+```
+
+<h4> 7. Acessar o Swagger</h4>
+
+Após iniciar, o terminal exibirá a porta utilizada. Acesse a documentação interativa da API em:
+
+```
+https://localhost:{PORTA}/swagger
+```
+> Substitua `{PORTA}` pelo número exibido no terminal ao iniciar a aplicação.
+
+---
+<h4>🛠️ Tecnologias Utilizadas</h4>
+
+- **C# / .NET 10**
+- **ASP.NET Core Web API**
+- **Entity Framework Core**
+- **Oracle Database**
+- **Swagger / OpenAPI**
+
+---
+*Desenvolvido com 💙 pela equipe CLYVO — FIAP 2025*
+
 
 
