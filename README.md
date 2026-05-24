@@ -10,16 +10,16 @@
 
 <h2>Descrição sobre projeto: </h2>
 
-<p>Como visto no tema do challenge, o objetivo da CLYVO é acompanhar a jornada contínua de saúde do pet, que infelizmente causa a falta de recorrências. Bem, como os animais não conseguem falar o que estão sentindo, infelizmente é normal só levar o animal de estimação quando está realmente mal ou em casos de emergência.
-	Por causa disso, pode resultar uma grande complicação ao tratamento, pois não existe um banco de dados sobre a saúde do animal ou um histórico de check, que pode resultar em um diagnóstico tardio.
-	Olhando a essa situação, a solução do grupo é entregar um app com todas as funcionalidades que um veterinário precisa em um único lugar para buscar informações importantes sobre os seus pacientes, como idade, peso, espécie, raça, carteira de vacinação, histórico de consultas, quem é o responsável pelo pet e, claro, informações sobre a localização dele, caso o paciente morasse em um ambiente diferente do dono.
-	Mas também, opção de ver quais serão as suas próximas consultas, se houve um cancelamento ou alteração na data e entre outros.
-	Sobre a relação de aumentar o fluxo de retorno, ou melhor, aumentar a frequência de check-up, dentro do projeto haverá uma interação entre o responsável e a clínica por meio do WhatsApp. Bem, iria funcionar assim: depois de uma quantidade de dias que passaram após a consulta, o responsável pelo animal vai receber uma mensagem gerada perguntando sobre questão de agendamento de consulta. Isso também funciona em relação à vacinação. Mas, claro, dentro da mensagem tem a opção de reagendar ou a opção de não.
+<p>
+	Como visto no tema do challenge, o objetivo da CLYVO é acompanhar a jornada contínua de saúde do pet, combatendo o problema da baixa recorrência nas clínicas. Como os animais não conseguem expressar o que sentem, é comum que os responsáveis só busquem auxílio veterinário em situações graves ou emergências.
+	Essa cultura de atendimento reativo gera complicações no tratamento, uma vez que a ausência de um banco de dados unificado — com histórico de consultas e prontuários — pode levar a diagnósticos tardios.
+	Diante desse cenário, nossa solução é um aplicativo que centraliza todas as informações essenciais para o veterinário, como idade, peso, espécie, raça, carteira de vacinação, histórico de consultas e dados do responsável. Além disso, o app permite o rastreamento da localização do pet, caso este não habite o mesmo domicílio que o responsável. A plataforma também disponibiliza uma agenda completa para o acompanhamento de consultas, permitindo que o usuário visualize marcações, cancelamentos ou alterações de data.
+	Para estimular o fluxo de retorno e aumentar a frequência dos check-ups, o projeto prevê uma integração entre a clínica e o responsável por meio do WhatsApp. O sistema funcionará da seguinte forma: após um período determinado desde a última consulta, o responsável receberá uma mensagem automática com um convite para agendar o próximo check-up. Essa lógica também se aplica aos protocolos de vacinação. Em todos os casos, a mensagem oferecerá opções diretas para confirmar o agendamento ou optar por não realizá-lo no momento.
 </p>
 
 <h2>Sobre a parte de Dot .NET</h2>
 
-<p>Função do projeto de dot .net, é servir como um sistema de backend CRUD, aonde ele vai gerenciar os dados do projeto e suas funcionalidade presente no Banco de Dados. Mas também, vai oferecer as APIS que possa fazer o Frontend interagir com o Banco de Dados.</p>
+<p>Função do projeto de .NET é servir como um sistema de backend CRUD, em que ele vai gerenciar os dados do projeto e suas funcionalidades presentes no banco de dados Mas também vai oferecer as APIS que possam fazer o frontend interagir com o banco de dados.</p>
 
 <h2>Rotas Presente no Projeto: </h2>
 
@@ -138,7 +138,7 @@
 
 <h4>Para executar o projeto: </h4>
 
-- Vai play(http)
+- play(http)
 
 <h5 align="center">OU</h5>
 
@@ -146,6 +146,6 @@
 
 <h4>Quando iniciar</h4>
 
-- Quando iniciar, o programa vai abrir o terminal e longo apos vai na parte web e para você ir para o swagger, precisa ir a https://localhost:xxxx
+-  Quando iniciar, o programa vai abrir o terminal e, logo após, vai para a parte web. Para você ir para o Swagger, precisa ir a https://localhost:xxxx.
 
 
