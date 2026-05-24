@@ -1,27 +1,51 @@
 <h1 align="center"> ADVANCED BUSINESS DEVELOPMENT WITH .NET </h1>
 <h3 align="center">Challenge - FIAP - CYLVO</h3>
 
-<h2 align="center" > Integrante </h2>
+<h2 align="center" >  👥 Integrante </h2>
+|	NOME					|		RM		|
+|-------------------------------------------|
+| EDUARDO BATISTA LOCASPI       - RM5651713 |
+| LIANA LYUMI MORISITA FUJISIMA - RM565698  |
+| LETICIA SANTIAGO E SILVA      - RM565799  |
+| VICTOR ALVES LOPES            - RM561833  |
 
-- EDUARDO BATISTA LOCASPI - RM5651713
-- LIANA LYUMI MORISITA FUJISIMA - RM565698
-- LETICIA SANTIAGO E SILVA - RM565799
-- VICTOR ALVES LOPES - RM561833
-
-<h2>Descrição sobre projeto: </h2>
+<h2> 📋 Descrição sobre projeto: </h2>
 
 <p>
-	Como visto no tema do challenge, o objetivo da CLYVO é acompanhar a jornada contínua de saúde do pet, combatendo o problema da baixa recorrência nas clínicas. Como os animais não conseguem expressar o que sentem, é comum que os responsáveis só busquem auxílio veterinário em situações graves ou emergências.
-	Essa cultura de atendimento reativo gera complicações no tratamento, uma vez que a ausência de um banco de dados unificado com histórico de consultas e prontuários pode levar a diagnósticos tardios.
-	Diante desse cenário, nossa solução é um aplicativo que centraliza todas as informações essenciais para o veterinário, como idade, peso, espécie, raça, carteira de vacinação, histórico de consultas e dados do responsável. Além disso, o app permite o rastreamento da localização do pet, caso este não habite o mesmo domicílio que o responsável. A plataforma também disponibiliza uma agenda completa para o acompanhamento de consultas, permitindo que o usuário visualize marcações, cancelamentos ou alterações de data.
-	Para estimular o fluxo de retorno e aumentar a frequência dos check-ups, o projeto prevê uma integração entre a clínica e o responsável por meio do WhatsApp. O sistema funcionará da seguinte forma: após um período determinado desde a última consulta, o responsável receberá uma mensagem automática com um convite para agendar o próximo check-up. Essa lógica também se aplica aos protocolos de vacinação. Em todos os casos, a mensagem oferecerá opções diretas para confirmar o agendamento ou optar por não realizá-lo no momento.
+	A **CLYVO** nasceu para resolver um problema real e silencioso: a descontinuidade no cuidado com a saúde dos pets.
+
+Como os animais não conseguem comunicar o que sentem, é comum que os tutores só os levem ao veterinário em situações de emergência ou quando o quadro já está grave. Isso resulta em:
 </p>
 
-<h2>Sobre a parte de Dot .NET</h2>
+- ❌ Ausência de histórico clínico do animal
+- ❌ Diagnósticos tardios e tratamentos mais complexos
+- ❌ Baixa frequência de check-ups preventivos
 
-<p>Função do projeto de .NET é servir como um sistema de backend CRUD, em que ele vai gerenciar os dados do projeto e suas funcionalidades presentes no banco de dados Mas também vai oferecer as APIS que possam fazer o frontend interagir com o banco de dados.</p>
+<h2> 💡 A Solução</h2>
 
-<h2>Rotas Presente no Projeto: </h2>
+<p>A CLYVO entrega um **aplicativo completo para veterinários**, reunindo em um único lugar tudo o que é necessário para acompanhar a jornada de saúde dos pacientes:
+</p>
+
+- 🐶 Dados do animal (idade, peso, espécie, raça)
+- 💉 Carteira de vacinação
+- 📋 Histórico de consultas e prescrições
+- 👤 Informações do responsável
+- 📍 Localização do pet (caso more em endereço diferente do tutor)
+- 📅 Agenda de próximas consultas com alertas de cancelamento ou alteração
+
+<h2> 📲 Engajamento via WhatsApp </h2>
+
+<p>Para aumentar a recorrência de visitas, o sistema envia mensagens automáticas ao responsável pelo animal após um determinado período desde a última consulta ou vacinação, perguntando sobre o interesse em agendar um novo atendimento — com opção de confirmar ou recusar diretamente pela mensagem.</p>
+
+<h2>⚙️ Sobre o Backend (.NET) </h2>
+
+<p>O projeto .NET atua como o **sistema de backend CRUD** da plataforma, responsável por:</p>
+
+- Gerenciar todos os dados da aplicação no Banco de Dados Oracle
+- Expor APIs REST para que o Frontend consuma e interaja com os dados
+
+
+<h2> 🛣️ Rotas da API: </h2>
 
 <h4>Rota principal</h4>
 
@@ -108,7 +132,7 @@
 - PUT: atualizar/vetclinica/{id_clinica_vet:int}
 - DELETE: deleta/vetclinica/{id_clinica_vet:int}
 
-<h2>Instruções de instalação e execução: </h2>
+<h2>🚀 Instruções de instalação e execução: </h2>
 
 <h4>Pre-requisitos: </h4>
 
